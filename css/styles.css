@@ -6094,6 +6094,10 @@ a.close.disabled {
   vertical-align: text-top !important;
 }
 
+.bg-primary-def {
+  background-color: #0275d8 !important;
+}
+
 .bg-primary {
   background-color: #fed136 !important;
 }
@@ -10143,6 +10147,19 @@ img::-moz-selection {
     margin-right: 0;
   }
 }
+
+header.masthead-no-bg {
+  padding-top: 9rem;
+  padding-bottom: 1px;
+  text-align: center;
+  color: #fff;
+  background-color: #343a40;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 35rem;
@@ -10202,7 +10219,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(43, 43, 43, 0.5);
   align-items: center;
   justify-content: center;
   opacity: 0;
